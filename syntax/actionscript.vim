@@ -70,6 +70,8 @@ syn keyword actionScriptMethodDecl	override get set
 syn keyword actionScriptScopeDecl	internal public protected private abstract
 syn keyword actionScriptStorageClass	const dynamic final static
 syn keyword actionScriptReserved	boolean byte char debugger double enum export float goto let long short synchronized throws transient volatile 
+syn keyword actionScriptMetaData	Bindable
+syn keyword swizMetaData		Inject Dispatcher EventHandler Mediate Autowire
 
 if exists("actionScript_fold")
     syn match	actionScriptFunction	"\<function\>"
@@ -140,6 +142,8 @@ if version >= 508 || !exists("did_actionscript_syn_inits")
   HiLink actionScriptClassDecl		StorageClass
   HiLink actionScriptMethodDecl		StorageClass
   HiLink actionScriptScopeDecl		StorageClass
+  HiLink actionScriptMetaData		Keyword 
+  HiLink swizMetaData			Keyword
 
   delcommand HiLink
 endif
