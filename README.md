@@ -1,7 +1,9 @@
-vim-flex
-========
+vim-flex-swiz
+=============
 
-Simple syntax highlighting for MXML and ActionScript. 
+Simple syntax highlighting for MXML and ActionScript with additional highlighting for metadata used by the [Swiz] framework.
+
+[Swiz]: http://swizframework.org
 
 
 Installation with Pathogen (preferred)
