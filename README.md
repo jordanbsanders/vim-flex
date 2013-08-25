@@ -1,11 +1,11 @@
-vim-flex-swiz
+vim-flex
 =============
 
 Simple syntax highlighting for MXML and ActionScript with additional highlighting for metadata used by the [Swiz] framework.
 
 forked from [msmorgan]'s project, [vim-flex]
 
-[Swiz]: http://swizframework.org
+[Swiz]: https://swizframework.jira.com/wiki/display/SWIZ/Home
 [msmorgan]: http://github.com/msmorgan
 [vim-flex]: http://github.com/msmorgan/vim-flex
 
